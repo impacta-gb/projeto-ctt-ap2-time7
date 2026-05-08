@@ -1,6 +1,5 @@
 # Tratamento de Erros (`tratamento_erros.md`)
 
-```markdown id="f9n2x1"
 # Tratamento de Erros em Go
 
 ## Introdução
@@ -11,8 +10,11 @@ O padrão mais utilizado é:
 
 ```go
 if err != nil
+```
 
 ### Exemplo Básico
+
+```go
 
 package main
 
@@ -33,6 +35,7 @@ func main() {
 
     fmt.Println("Arquivo aberto com sucesso!")
 }
+```
 
 # Como Funciona?
 
