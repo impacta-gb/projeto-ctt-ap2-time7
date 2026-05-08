@@ -1,7 +1,6 @@
 
 # Concorrência com Goroutines (`goroutines.md`)
 
-```markdown id="p4v8m6"
 # Concorrência em Go com Goroutines
 
 ## O que são Goroutines?
@@ -19,6 +18,8 @@ go
 
 # Exemplo Básico
 
+ ```go
+
 package main
 
 import (
@@ -35,6 +36,7 @@ func main() {
 
     time.Sleep(time.Second)
 }
+```
 
 ## Como Funciona?
 
