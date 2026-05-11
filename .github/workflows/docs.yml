@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   # JOB 1: Validação e Construção (Build)
-  build_site:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -69,7 +69,7 @@ jobs:
   deploy_site:
     # Só executa se o build passar e NÃO for um Pull Request
     if: github.event_name != 'pull_request' 
-    needs: build_site
+    needs: test
     runs-on: ubuntu-latest
     environment:
       name: github-pages
