@@ -1,4 +1,4 @@
-name: CI/CD Documentation Go
+name: CI/CD Documentation Go 
 
 on:
   push:
