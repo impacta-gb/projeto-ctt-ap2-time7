@@ -59,4 +59,4 @@ func main(){
 ---
 
 !!! note 
-    Slice são muitos utilizados em Go por srem dinâmicos. 
+           Slice são muitos utilizados em Go por srem dinâmicos. 
